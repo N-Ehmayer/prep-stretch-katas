@@ -44,34 +44,6 @@ var talkingCalendar = function(date) {
       break;
   }
 
-/*
-  if (month == 01) {
-    month = "January";
-  } else if (month == 03) {
-    month = "February";
-  } else if (month == 03) {
-    month = "March";
-  } else if (month == 04) {
-    month = "April";
-  } else if (month == 05) {
-    month = "May";
-  } else if (month == 06) {
-    month = "June";
-  } else if (month == 07) {
-    month = "July";
-  } else if (month == 08) {
-    month = "Augest";
-  } else if (month == 09) {
-    month = "September";
-  } else if (month == 10) {
-    month = "October";
-  } else if (month == 11) {
-    month = "November";
-  } else if (month == 12) {
-    month = "December";
-  }
-*/
-
   var dayHundredth = day % 10;
 
   if (day[0] == 0) {
