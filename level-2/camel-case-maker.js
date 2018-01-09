@@ -11,7 +11,6 @@ var camelCase = function(input) {
     output[i] = output[i].toLowerCase().replace(output[i][0], firstLetter);
   }
   return output.join('');
-  //return words;
 }
 
 console.log(camelCase('THIS is a stRIng'));
