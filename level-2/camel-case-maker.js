@@ -9,7 +9,6 @@ var camelCase = function(input) {
     var firstLetter = words[i][0].toUpperCase();
     output.push(words[i]);
     output[i] = output[i].toLowerCase().replace(output[i][0], firstLetter);
-    //output[i] = output[i].replace(output[i][0], firstLetter);
   }
   return output.join('');
   //return words;
