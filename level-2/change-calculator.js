@@ -2,7 +2,7 @@ var calculateChange = function(total, cash) {
 
   var r = Math.round(100 * (cash - total))/100;
 
-  var moneyType = {
+  const moneyType = {
     twentyDollar: 0,
     tenDollar: 0,
     fiveDollar: 0,
@@ -46,12 +46,16 @@ var calculateChange = function(total, cash) {
       break;
     }
   }
-  /*
-  for (i in moneyType) {
-    if ()
+  for (var i in moneyType) {
+    if (moneyType[i] == 0) {
+      delete moneyType[i];
+    }
   }
-  */
+
+
+
   return moneyType;
+
 }
 
 
