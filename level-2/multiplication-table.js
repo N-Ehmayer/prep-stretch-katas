@@ -57,7 +57,7 @@ var multiplicationTable = function(maxValue) {
         } else {
           if (k == maxValue) {
             if ((n * k) < 10) {
-              result += '| ' + (n * k) + '   |'
+              result += '| ' + (n * k) + '   |';
             } else if ((n * k) < 100) {
               result += '| ' + (n * k) + '  |';
             } else {
@@ -65,7 +65,7 @@ var multiplicationTable = function(maxValue) {
             }
           } else {
             if ((n * k) < 10) {
-              result += '| ' + (n * k) + '   '
+              result += '| ' + (n * k) + '   ';
             } else if ((n * k) < 100) {
               result += '| ' + (n * k) + '  ';
             } else {
